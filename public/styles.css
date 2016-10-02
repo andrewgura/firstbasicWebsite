@@ -1,0 +1,144 @@
+body{
+  background-image: url("images/sky.jpg");
+  background-size: 100%;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+iframe{
+  height: 500px;
+  width: 100%;
+}
+
+a1{
+  color: #DCDCDC;
+  font-size: 50px;
+  background-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#banner{
+  height: 85px;
+  background-image: url("images/slate.jpg");
+}
+
+
+#sqd{
+  background-image: url("images/white.jpg");
+  height: 100%;
+  width: 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#current{
+  color: #696969;
+  font-weight: bold;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+td{
+  font-size: 25px;
+  vertical-align: top;
+}
+
+#main{
+  top: 10px;
+  position: relative;
+  left: 24.5%;
+  max-width: 48%;
+  text-align: right;
+  border-style: groove;
+  margin-bottom: 10px;
+  margin-left: 0px
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-right: 2px;
+}
+
+#other{
+  position: relative;
+  left: 24.5%;
+  max-width: 48%;
+  text-align: right;
+  border-style: groove;
+  margin-bottom: 10px;
+  margin-left: 0px
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-right: 2px;
+}
+
+#plus{
+  text-align: left;
+  position: relative;
+  left: -24.5%;
+  max-width: 48%;
+  border-style: groove;
+  top: -410px;
+  margin-bottom: 10px;
+  margin-left: 0px
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.footer {
+  bottom: 0;
+  background-image: url("images/slate.jpg");
+  height: 25px;
+}
